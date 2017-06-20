@@ -1,0 +1,41 @@
+body {
+
+border:20px solid #bdc3c7;
+padding:20px;
+width:700px;
+margin:20px auto; /*"20px"is top and bottom,"auto" is left and right*/
+font-family: 'Source Sans Pro', sans-serif; /*write once for p and h2 in body ,rather than separete the code */
+
+}
+
+.post {
+
+	margin-bottom:20px;
+}
+
+
+.date{
+
+	color:#3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem; /*rem: root element*/
+
+}
+.quote{
+
+	border-left:5px solid #bdc3c7 ;
+	padding-left: 5px;
+} 
+
+
+h2{
+
+	color:#2c3e50;
+	font-size: 2.0rem;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
